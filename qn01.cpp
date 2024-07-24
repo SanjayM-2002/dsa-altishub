@@ -2,12 +2,14 @@
 using namespace std;
 
 /*
+Problem 1: Array Manipulation - Qn 1: Maximum subarray sum
+
 Approach: Kadane's Algorithm
 Intuition: For every element, i am checking if it can be added to the current subarray or not
 I am using currMax variable to store current subarray sum and res variable to store the final answer
 
 Time complexity: O(n)
-Space complexity: O(1)
+Aux Space: O(1)
 */
 
 int maxSumSubarray (vector<int> v) {
